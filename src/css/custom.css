@@ -64,3 +64,50 @@
     margin: 0 auto;
   }
 }
+
+/* Add left-pointing arrow to "Tools Overview" sidebar link */
+/* Only show arrow when NOT on the intro page itself */
+.menu__link[href="/docs/intro"]:not(.menu__link--active),
+.menu__link[href="/docs/intro/"]:not(.menu__link--active) {
+  position: relative;
+  padding-left: 2.0rem;
+}
+
+.menu__link[href="/docs/intro"]:not(.menu__link--active)::before,
+.menu__link[href="/docs/intro/"]:not(.menu__link--active)::before {
+  content: '';
+  position: absolute;
+  left: 1.0rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(135deg);
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 1.5px solid var(--ifm-menu-color);
+  border-bottom: 1.5px solid var(--ifm-menu-color);
+  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.menu__link[href="/docs/intro"]:not(.menu__link--active):hover::before,
+.menu__link[href="/docs/intro/"]:not(.menu__link--active):hover::before {
+  border-right-color: var(--ifm-menu-color-active);
+  border-bottom-color: var(--ifm-menu-color-active);
+}
+
+/* Hide sidebar on the intro page */
+/* Target the sidebar container when the active link is intro */
+.theme-doc-sidebar-container:has(.menu__link--active[href="/docs/intro"]),
+.theme-doc-sidebar-container:has(.menu__link--active[href="/docs/intro/"]) {
+  display: none !important;
+}
+
+/* Also hide the sidebar column wrapper */
+.theme-doc-sidebar-container:has(.menu__link--active[href="/docs/intro"]) ~ *,
+.theme-doc-sidebar-container:has(.menu__link--active[href="/docs/intro/"]) ~ * {
+  /* This targets the main content area */
+}
+
+/* Fallback: Hide sidebar when URL contains /docs/intro */
+body[data-path="/docs/intro"] .theme-doc-sidebar-container,
+body[data-path="/docs/intro/"] .theme-doc-sidebar-container {
+  display: none !important;
+}

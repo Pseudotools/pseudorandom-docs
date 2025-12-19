@@ -14,9 +14,8 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   // Main sidebar (for overview/intro page)
-  tutorialSidebar: [
-    'intro',
-  ],
+  // Note: intro page has sidebar: false, so it won't show a sidebar
+  tutorialSidebar: [],
   
   // Pseudorandom sidebar
   pseudorandomSidebar: [
@@ -48,6 +47,11 @@ const sidebars: SidebarsConfig = {
         'pseudorandom/topics/topic-2',
       ],
     },
+    {
+      type: 'link',
+      label: 'Tools Overview',
+      href: '/docs/intro',
+    },
   ],
   
   // Pseudocomfy sidebar
@@ -75,6 +79,11 @@ const sidebars: SidebarsConfig = {
       items: [
         'pseudocomfy/topics/topic-1',
       ],
+    },
+    {
+      type: 'link',
+      label: 'Tools Overview',
+      href: '/docs/intro',
     },
   ],
 };

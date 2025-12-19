@@ -1,6 +1,7 @@
 ---
 title: Welcome to Pseudotools Documentation
 description: "Learn by doing: quick starts, workflow tutorials, and advanced techniques for Pseudotools tools."
+sidebar: false
 ---
 
 # Welcome to Pseudotools Documentation

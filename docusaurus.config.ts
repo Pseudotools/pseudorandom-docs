@@ -103,18 +103,6 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'pseudorandom/index',
-          position: 'left',
-          label: 'Pseudorandom',
-        },
-        {
-          type: 'doc',
-          docId: 'pseudocomfy/index',
-          position: 'left',
-          label: 'Pseudocomfy',
-        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.pseudotools.com/',
@@ -127,12 +115,20 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Pseudorandom',
+          title: 'Documentation',
           items: [
             {
-              label: 'Overview',
+              label: 'Our Tools in Overview',
               to: '/docs/intro',
             },
+            {
+              label: 'Pseudorandom',
+              to: '/docs/pseudorandom',
+            },
+            {
+              label: 'Pseudocomfy',
+              to: '/docs/pseudocomfy',
+            },                        
           ],
         },
         {
