@@ -1,5 +1,6 @@
 ---
-sidebar_position: 5
+title: Deploy your site
+description: Docusaurus is a static-site-generator that builds your site as simple static HTML, JavaScript and CSS files.
 ---
 
 # Deploy your site

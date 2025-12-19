@@ -1,47 +1,37 @@
 ---
-sidebar_position: 1
+title: Welcome to Pseudotools Documentation
+description: Learn by doing: quick starts, workflow tutorials, and advanced techniques for Pseudotools tools.
 ---
 
-# Tutorial Intro
+# Welcome to Pseudotools Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Learn by doing: quick starts, workflow tutorials, and advanced techniques for Pseudotools tools.
+
+## About Pseudotools
+
+Pseudotools provides powerful tools for your workflow. This documentation covers two main tools:
+
+### Pseudorandom for Rhino
+
+Pseudorandom is a tool for Rhino that [description]. Get started with installation and first steps, then explore core concepts and advanced topics.
+
+### Pseudocomfy
+
+Pseudocomfy is a tool that [description]. Learn how to install, configure, and use Pseudocomfy effectively.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Choose a tool to begin:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **[Pseudorandom](/docs/pseudorandom)** - Start using Pseudorandom for Rhino
+- **[Pseudocomfy](/docs/pseudocomfy)** - Start using Pseudocomfy
 
-### What you'll need
+## Documentation Structure
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Each tool's documentation is organized into:
 
-## Generate a new site
+- **Getting Started** - Installation and first steps
+- **Core Concepts** - Fundamental concepts and key features
+- **Topics** - Advanced topics and detailed guides
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Explore the sidebar to navigate through the documentation for each tool.

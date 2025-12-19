@@ -5,6 +5,19 @@
   width: 100%;
 }
 
+.featureLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+.featureLink:hover {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+}
+
 .featureSvg {
   height: 200px;
   width: 200px;

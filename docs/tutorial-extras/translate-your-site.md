@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+title: Translate your site
+description: Learn how to translate your Docusaurus site to support multiple languages.
 ---
 
 # Translate your site

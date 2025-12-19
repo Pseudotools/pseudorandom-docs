@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: Manage Docs Versions
+description: Docusaurus can manage multiple versions of your docs.
 ---
 
 # Manage Docs Versions

@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: Create a Page
+description: Add Markdown or React files to src/pages to create standalone pages.
 ---
 
 # Create a Page

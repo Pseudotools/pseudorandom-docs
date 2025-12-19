@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+title: Create a Document
+description: Documents are groups of pages connected through a sidebar, previous/next navigation, and versioning.
 ---
 
 # Create a Document
