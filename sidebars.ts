@@ -36,6 +36,8 @@ const sidebars: SidebarsConfig = {
         'pseudorandom/core-concepts/overview',
         'pseudorandom/core-concepts/key-features',
         'pseudorandom/core-concepts/endpoints',
+        'pseudorandom/core-concepts/workflows',
+        'pseudorandom/core-concepts/guidance',
       ],
     },
     {
