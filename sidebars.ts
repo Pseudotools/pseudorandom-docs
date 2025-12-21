@@ -77,7 +77,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Topics',
       items: [
-        'pseudocomfy/topics/topic-1',
+        'pseudocomfy/topics/library-specification',
+        'pseudocomfy/topics/workflow-specification',
       ],
     },
     {
