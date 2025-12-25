@@ -1,10 +1,18 @@
 ksteinfe:
   name: Kyle Steinfeld
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://ced.berkeley.edu/wp-content/uploads/2023/07/2025_Kyle-Steinfeld-400x400.jpg
+  title: Pseudotools, UC Berkeley
+  url: http://ksteinfe.com/
+  image_url: https://media.licdn.com/dms/image/v2/D5603AQH7Wf10a5os1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728318502052?e=1768435200&v=beta&t=RHwUzGPZaedH8-2eyyCC8BylcQZE6pmGpkc602kgdVA
   page: true
   socials:
     linkedin: ksteinfe
     github: ksteinfe
-    bluesky: ksteinfe
+    bluesky: ksteinfe.bsky.social
+
+pseudotools:
+  name: Pseudotools
+  url: http://pseudotools.com/
+  image_url: https://pseudotools.github.io/img/logo.png
+  page: false
+  socials:
+    youtube: pseudotools-ai

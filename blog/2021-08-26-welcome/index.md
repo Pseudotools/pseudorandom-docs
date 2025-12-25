@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [ksteinfe]
+authors: [ksteinfe, pseudotools]
 tags: [facebook, hello, docusaurus]
 ---
 
