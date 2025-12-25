@@ -13,6 +13,6 @@ pseudotools:
   name: Pseudotools
   url: http://pseudotools.com/
   image_url: https://pseudotools.github.io/img/logo.png
-  page: false
+  page: true
   socials:
     youtube: pseudotools-ai
